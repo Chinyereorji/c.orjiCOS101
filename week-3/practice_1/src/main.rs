@@ -1,3 +1,11 @@
 fn main() {
-    println!("Hello, world!");
+   let school_string= "School of science and technology"; //string type
+   let rating_float = 5.0; //float type
+   let is_growing_float = true; //boolean type
+   let department_integer = 3; //integer type
+
+   println!("School name is: {}", school_string);
+   println!("School Rating on 5 is: {}", rating_float );
+   println!("School is growing: {}", is_growing_float);
+println!("Number or departments is: {}", department_integer );
 }
