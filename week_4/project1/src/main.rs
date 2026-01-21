@@ -23,9 +23,9 @@ fn main() {
     let root2:f32 = (-b -discriminant.sqrt())/(2.0 * a);
     println!("The roots are {} and {}",root1,root2);
 }
-else if discriminant <0.0{
-    let _root : f32 = -b/(2.0 * a);
-    println!("The one real root is:{}",_root);
+else if discriminant == 0.0{
+    let root1 : f32 = -b/(2.0 * a);
+    println!("The one real root is:{}",root1);
 
 }
 else{
